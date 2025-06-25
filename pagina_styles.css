@@ -1,0 +1,74 @@
+.btn-outline {
+  background-color: transparent;
+  color: #78afb4;
+  border: 2px solid #78afb4;
+  transition: all 0.3s ease;
+  border-radius: 20px;
+}
+
+.btn-outline:hover {
+  background-color: #78afb4;
+  color: white;
+}
+
+.detalle-galeria-principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.detalle-galeria-principal img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.detalle-info {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.detalle-info h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.detalle-info h4 {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.detalle-info p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.detalle-lista {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.detalle-lista li {
+  margin-bottom: 8px;
+  list-style-type: disc;
+}
+
+.cabana-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.cabana-images img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
